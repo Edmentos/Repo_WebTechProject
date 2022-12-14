@@ -1,0 +1,46 @@
+body 
+{
+    font-family: "Arial", sans-serif;
+    
+}
+  
+nav 
+{
+    height: 80px;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0;
+    padding: 0;
+}
+  nav {
+    display: flex;
+    align-items: auto;
+  }
+  nav a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: #dcf13c;
+  }
+  nav img {
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    align-items: right;
+    height: 40px;
+  }
+
+
+.navbar img {
+  align-self: left;
+}
+.navbar .nav-menu {
+  align-self: right;
+}
+</style>
+
+<div class="navbar">
+  <img src="your-image-source" />
+  <div class="nav-menu">
+    <!-- Your navigation menu items go here -->
+  </div>
+</div>
