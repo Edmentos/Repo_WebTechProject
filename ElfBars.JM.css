@@ -1,46 +1,78 @@
 body 
 {
-    font-family: "Arial", sans-serif;
-    
-}
+  font-family: sans-serif;
   
+}
+h2
+{
+  margin-top: 50px;
+}
+nav:hover 
+{
+  background-color: rgb(191, 52, 255);
+  background-color: rgb(241, 21, 106);
+  color: rgb(244, 23, 221);
+  padding: 20px;
+  text-align: center;
+}
+
+nav a 
+{
+  color: rgb(7, 254, 192);
+  text-decoration: none;
+  padding: 10px 20px;
+}
+
+nav a:hover 
+{
+  background-color: rgb(191, 52, 255);
+}
 nav 
 {
-    height: 80px;
-    width: 100%;
-    max-width: 1200px;
-    margin: 0;
-    padding: 0;
+  transition: all 0.5s;
 }
-  nav {
-    display: flex;
-    align-items: auto;
-  }
-  nav a {
-    margin-right: 10px;
-    text-decoration: none;
-    color: #dcf13c;
-  }
-  nav img {
-    display: flex;
-    justify-content: space-between;
-    margin-left: auto;
-    align-items: right;
-    height: 40px;
-  }
-
-
-.navbar img {
-  align-self: left;
+nav:hover 
+{
+  background-color: rgb(33, 222, 232);
+  box-shadow: 0 10px 20px rgb(250, 5, 246);
 }
-.navbar .nav-menu {
-  align-self: right;
-}
-</style>
+nav 
+{
 
-<div class="navbar">
-  <img src="your-image-source" />
-  <div class="nav-menu">
-    <!-- Your navigation menu items go here -->
-  </div>
-</div>
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+#intro
+{
+  background-color: rgb(251, 12, 255);
+  color: rgb(17, 247, 255);
+  padding: 20px;
+  border: 0px;
+  margin: 10%;
+  text-align: center;
+}
+div {
+  display: flex;
+}
+
+img {
+  margin: 23px;
+}
+#Flavours
+{
+  color: rgb(17, 247, 255);
+  padding: 20px;
+  border: 0px;
+  margin: 10%;
+  text-align: center;
+}
+#ageConfirmationPopup
+{
+  color: rgb(17, 247, 255);
+  padding: 20px;
+  border: 0px;
+  margin: 10%;
+  text-align: center;
+}
