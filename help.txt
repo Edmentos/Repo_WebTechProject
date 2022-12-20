@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>Lost Marys</title>
+
+  <link rel="stylesheet" href="Mary-EW.css">
+  <style>
+    .box {
+      width: 33%; 
+      float: left; 
+      box-sizing: border-box; 
+      padding: 20px; 
+      border: 1px solid black; 
+      }
+
+     .clearfix {
+      clear: both;
+      }
+    
+  </style>
+</head>
+<body>
+
+    <h1><strong>Lost Mary</strong></h1>
+
+   
+  <button onclick="askForAge()">Click here to try it out</button>
+  <script>
+    function askForAge() {
+      var age = prompt("Please enter your age:");
+      if (age < 18) {
+        alert("Sorry, you must be 18 or older to access this website.");
+      } else {
+        alert("Great, welcome to Lost Mary Vapes! Enjoy your visit!.");
+      }
+    }
+  </script>
+
+  <div class="box" id="box1">
+    <p>Lost Mary vapes are different to all other vapes as they deliver a great
+                taste in a small product. Most other vapes are large and bulky. Lost Marys 
+                have become very popular due to the design of them.</p>
+  </div>
+
+  <div class="box" id="box2">
+    <img src="triple-melon.png" alt="Tripple melon mary">
+  </div>
+
+  <div class="box" id="box3">
+    <p>The matte feeling and overall texture is the main focal point of the lost mary.
+                 The overall attention to design is what many vape users want in their vape.
+                Many users just simply like the look of them and want to be different rather than having the 
+                regular old elfbar</p>
+  </div>
+
+</body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Lost Marys</title>
+
+    <link rel="stylesheet" href="Mary-EW.css">
+
+    <style>
+        .box {
+          float: left;
+          width: 33%;
+          padding: 10px;
+        }
+    
+        .clearfix {
+          clear: both;
+        }
+      </style>
+
+</head>
+<body>
+    <h1><strong>Lost Mary</strong></h1>
+
+   
+    <button onclick="askForAge()">Click here to try it out</button>
+    <script>
+      function askForAge() {
+        var age = prompt("Please enter your age:");
+        if (age < 18) {
+          alert("Sorry, you must be 18 or older to access this website.");
+        } else {
+          alert("Great, welcome to Lost Mary Vapes! Enjoy your visit!.");
+        }
+      }
+    </script>
+
+
+    <div id="main" class="Clearfix">
+
+        <div id="box">
+            Lost Mary vapes are different to all other vapes as they deliver a great
+                taste in a small product. Most other vapes are large and bulky. Lost Marys 
+                have become very popular due to the design of them.
+        </div>
+
+        <div id="box">
+            <img src="triple-melon.png" alt="Triple Melon Lost Mary Image">
+        </div>
+
+        <div id="box">
+            The matte feeling and overall texture is the main focal point of the lost mary.
+                 The overall attention to design is what many vape users want in their vape.
+                Many users just simply like the look of them and want to be different rather than having the 
+                regular old elfbar
+        </div>
+
+
+    </div>
+
+
+
+
+
+
+
+</body>
+</html>

@@ -24,4 +24,50 @@
     width: 45%;
     text-align: right;
   }
+  nav:hover 
+  {
+    background-color: rgb(191, 52, 255);
+    background-color: rgb(241, 21, 106);
+    color: rgb(244, 23, 221);
+    padding: 20px;
+    text-align: center;
+  }
+  nav a 
+{
+  color: rgb(7, 254, 192);
+  text-decoration: none;
+  padding: 10px 20px;
+}
+nav a:hover 
+{
+  background-color: rgb(191, 52, 255);
+}
+nav 
+{
+  transition: all 0.5s;
+}
+nav:hover 
+{
+  background-color: rgb(0, 0, 0);
+  box-shadow: 0 10px 20px rgb(250, 5, 246);
+}
+nav 
+{
 
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+h1
+{
+  color: rgb(7, 254, 192);
+}
+p
+{
+  color: rgb(7, 254, 192);
+}
+h2
+{
+  color: rgb(7, 254, 192);
+}

@@ -1,47 +1,101 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lost Marys</title>
+   <title>Lost Marys</title>
 
-    <link rel="stylesheet" href="Mary-EW.css">
+   <script src="maryEW.js"></script>
+
+  <link rel="stylesheet" href="Mary-EW.css">
+  <style>
+    .box {
+      width: 33%; 
+      float: left; 
+      box-sizing: border-box; 
+      padding: 20px; 
+      }
+
+     .Clearfix {
+      clear: both;
+      }
+    
+  </style>
 </head>
 <body>
+
     <h1><strong>Lost Mary</strong></h1>
 
-    <script>
-    <button onclick="askForAge()">Click here to try it out</button>
-    </script>
 
+    <body onload="setRandomBackground()">
+      <nav>
+            <a href="#intro"> <b>Introduction to Lost Mary Vapes</b> </a>
+        
+            <a href="#Flavours"> <b>Flavours</b></a>
+          
+            <a href="#contact"> <b>Contact Information</b> </a>
+      </nav>
+  </body>
+
+  <hr>
+
+  <button onclick="askForAge()">Click here to try it out</button>
+  <script>
+    function askForAge() {
+      var age = prompt("Please enter your age:");
+      if (age < 18) {
+        alert("Sorry, you must be 18 or older to access this website.");
+      } else {
+        alert("Great, welcome to Lost Mary Vapes! Enjoy your visit!.");
+      }
+    }
+  </script>
+
+<section id="intro">
     <div id="main" class="Clearfix">
-
-        <div id="left">
-            Lost Mary vapes are different to all other vapes as they deliver a great
+        <div class="box" id="box1">
+        <p>Lost Mary vapes are different to all other vapes as they deliver a great
                 taste in a small product. Most other vapes are large and bulky. Lost Marys 
-                have become very popular due to the design of them.
-        </div>
-
-        <div id="middle">
-            <img src="triple-melon.png" alt="Triple Melon Lost Mary Image">
-        </div>
-
-        <div id="Right">
-            The matte feeling and overall texture is the main focal point of the lost mary.
-                 The overall attention to design is what many vape users want in their vape.
-                Many users just simply like the look of them and want to be different rather than having the 
-                regular old elfbar
-        </div>
-
-
+                have become very popular due to the design of them.</p>
     </div>
 
+    <div class="box" id="box2">
+        <a href="triplemangoEW.html"target="_blank"><img src="triple-melon.png" alt="Tripple melon mary"></a>
+    </div>
 
+    <div class="box" id="box3">
+        <p>The matte feeling and overall texture is the main focal point of the lost mary.
+                 The overall attention to design is what many vape users want in their vape.
+                Many users just simply like the look of them and want to be different rather than having the 
+                regular old elfbar</p>
+    </div>
+</div>
+</section>
 
+<hr>
+<hr>
+<section id="Flavours">
+<h2>Some of our great flavours</h2>
 
+<div id="main" class="Clearfix">
+  <div class="box" id="box1">
+    <a href="doubleappleEW.html"target="_blank"><img src="double_apple_mary-removebg-preview.png" alt="Double apple"></a>
+</div>
 
+<div class="box" id="box2">
+  <a href="bluesourraspEW.html"target="_blank"><img src="Bluesourrasp.png" alt="Blue mary"></a>
+</div>
 
+<div class="box" id="box3">
+  <a href="strawberryiceEW.html"target="_blank"><img src="strawice-removebg-preview.png" alt="Strawberry Ice mary"></a>
+</div>
+
+</div>
+</section>
+
+<hr>
+<hr>
+<section id = "contact">
+  <p> &#169 Edmond Wilkinson 2022. Contact  me at <a href= "mailto:Eddiewilkinson000@gmail.com"> Edmond Wilkinson</a> </p>
+  </section>
 
 </body>
 </html>
