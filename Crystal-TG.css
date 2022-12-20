@@ -1,0 +1,101 @@
+#Main{
+    width: 100;
+    margin-bottom: 0px;
+    position: top;
+    
+}
+
+#Logo-div{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 5px red;
+    font-family: "Courier New", monospace;
+}
+
+#image{ 
+    width: 100%;
+    opacity: 0.3;
+    height: 400px;
+
+}
+
+
+#Text1-div{
+    width: 100%;
+    text-align: center; 
+    
+}
+#Text2-div{
+    width: 100%;
+    margin-bottom: auto;
+    margin-top: auto;
+    text-align: center;
+}
+
+.clearfix::after{
+    content:"";
+    display:block;
+    clear:both;
+}
+
+#Main-div{
+    width: 100;
+    margin-bottom: 0px;
+}
+
+#Vape1{
+    background-color: pink;
+}
+
+#Vape2{
+    background-color:blue;
+}
+
+#Vape3{
+    background-color:antiquewhite;
+}
+
+#Vape4{
+    background-color:royalblue
+}
+
+#Vape5{
+    background-color: purple;
+}
+
+#Vape6{
+    background-color:salmon;
+}
+
+#Vape7{
+    background-color:yellowgreen ;
+}
+
+#Vape8{
+    background-color:palevioletred ;
+}
+
+#Vape9{
+    background-color:mediumspringgreen ;
+}
+
+#Vape10{
+    background-color:lightgreen ;
+}
+
+.Clearfix::after{
+    content:"";
+    display:block;
+    clear:both;
+}
+
+h3{
+    min-height: 100px;
+    line-height: 100px;
+}
+
+h1{
+    min-height: 100px;
+    line-height: 100px;
+}
