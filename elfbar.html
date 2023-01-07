@@ -1,41 +1,93 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Elfbar Vapes</title>
-  <link rel="stylesheet" type="text/css" href="ElfBars.JM.css">
-  <nav style="background-color: rgb(0, 0, 0);">
-    <img src="elfbar-logo.jpg" alt="Logo">
-    <ul style="display: flex; space-between;">
-        <li><a href="#" style="color: rgb(204, 63, 214);">Home</a></li>
-        <li><a href="#" style="color: rgb(255, 24, 39);">About</a></li>
-        <li><a href="#" style="color: rgb(27, 118, 255);">Contact</a></li>
-      </ul>
-  </nav><s></s>
-</head>
-<body>
-  <h1>Elfbar Vapes</h1>
-  <p>Welcome to the official elfbar vapes website! Here you can learn about our delicious vape flavors and purchase them on our partner website.</p>
+    <script src="ElfBars.JM.js"></script>
 
-  <h2>Flavors</h2>
-  <ul>
-    <li>
-      <h3>Strawberry</h3>
-      <img src="Elf-Bar-Strawberry-Ice.webp" alt="A strawberry-flavored vape" height = "300">
-      <p>Our strawberry flavor is juicy and delicious, with a perfect balance of sweet and tart.</p>
-      <a href="http://elfbars.ie/elf-bar-disposable-strawberry-ice-2ml-20mg/">Buy now</a>
-    </li>
-    <li>
-      <h3>Mint</h3>
-      <img src="mint-vape.jpg" alt="A mint-flavored vape">
-      <p>Our mint flavor is refreshing and invigorating, perfect for a pick-me-up any time of day.</p>
-      <a href="https://www.ourpartnersite.com/mint-vape">Buy now</a>
-    </li>
-    <li>
-      <h3>Chocolate</h3>
-      <img src="chocolate-vape.jpg" alt="A chocolate-flavored vape">
-      <p>Our chocolate flavor is rich and indulgent, with a smooth and creamy taste.</p>
-      <a href="https://www.ourpartnersite.com/chocolate-vape">Buy now</a>
-    </li>
-  </ul>
+  <title>ElfBars</title>
+    <link rel="stylesheet" type="text/css" href="ElfBars.JM.css">
+    <title>ElfBar Vapes</title>
+    <button onclick="showAgeConfirmation()">Enter</button>
+
+   
+
+<body onload="setRandomBackground()">
+    <nav>
+          <a href="#intro"> <b>Introduction to ElfBars</b> </a>
+      
+          <a href="#Flavours"> <b>Flavours</b></a>
+        
+          <a href="#contact"> <b>Contact Information</b> </a>
+    </nav>
+</body>
+    
+<section>
+  <div id="ageConfirmationPopup" style="display: none;">
+    <link rel="stylesheet" type="text/css" href="ElfBars.JM.css">
+    <form>
+      <label for="ageInput">Please enter your age:</label><br>
+      <input type="number" id="ageInput" name="age"><br>
+      <input type="button" value="Submit" onclick="confirmAge()">
+    </form>
+  </div>
+    <link rel="stylesheet" type="text/css" href="ElfBars.JM.css">
+    <section id="intro">
+      <h2><b>Welcome to the Vape Shop</b></h2>
+      <h2> <b> Introduction </b> </h2>
+
+      <p> An Elf Bar is a brand of Disposable Vapes which tend to be <u>slim, stylish and colurful</u> in nature. They come in a wide range of flavour and are designed to fit discretely into anyones jacket or jean pocket. Each device consists of a pre-charged internal battery, pre-filled vape juice and inside contain a coil, tank, and an ergonomic mouthpiece. 
+      </p>
+
+</section>
+  <link rel="stylesheet" type="text/css" href="ElfBars.JM.css">
+  <section id="Flavours">
+      <h2> <b>Flavours</b> </h2>
+      <a href="https://www.urbanvape.ie/collections/disposable-kits/products/elf-bar-strawberry-ice-2ml-20mg?variant=39645845258315" target="_blank">
+          <img src="Elf-Bar-Strawberry-Ice.webp" height="200">
+      </a>
+      <div id="banana" style="display: none;">
+      <a href="https://www.urbanvape.ie/products/elf-bar-banana-ice-2ml-20mg?variant=39668298645579"target="_blank">
+          <img src="banana-ice-disposable-elf-bar.webp" height="200">
+      </a>
+      </div>
+      <div id="peach" style="display: none;">
+      <a href="https://www.urbanvape.ie/products/elf-bar-peach-ice-2ml-20mg?variant=39823902900299"target="_blank">
+          <img src="peach-elfbar.jpg" height="200">
+      </a>
+      </div>
+      <div id="grape" style="display: none;">
+      <a href="https://www.urbanvape.ie/products/elf-bar-grape-2ml-20mg?variant=39645838016587"target="_blank">
+          <img src="grape-elfbar.jpg" height="200">
+      </a>
+      </div>
+      <div id="kiwi" style="display: none;">
+      <a href="https://www.urbanvape.ie/products/elf-bar-kiwi-passion-2ml-20mg?variant=39645859512395"target="_blank">
+          <img src="Kiwi lefbar.jpg" height="200">
+      </a>
+      </div>
+      <div id="blue" style="display: none;">
+      <a href="https://www.urbanvape.ie/products/elf-bar-blueberry-2ml-20mg?variant=39645865443403"target="_blank">
+          <img src="Elf-Bar-Blueberry-sour-Raspberry-600-Puffs-Ecigstore.gif" height="200">
+      </a>
+      </div>
+      <div id="redbull" style="display: none;">
+      <a href="https://www.urbanvape.ie/products/elf-bar-energy-ice-2ml-20mg?variant=39645852500043"target="_blank">
+          <img src="RedBullIce_1203db63-06df-4175-94a0-80366591a4d7_1600x.webp" height="200">
+      </a>
+      </div>
+      <div id="pinklemonade" style="display: none;">
+      <a href="https://www.urbanvape.ie/products/elf-bar-pink-lemonade-2ml-20mg?variant=39823908733003"target="_blank">
+          <img src="Elf-Bar-550-Disposable-Pod-Device-Pink-Lemonade-лого.jpg" height="200">
+      </a>
+      </div>
+  </section>
+
+ 
+  <hr> 
+  <section id = "contact">
+  <p> &#169 Jamie Montgomery 2022. Contact  me at <a href= "mailto:jamiemonty2013@gmail.com"> Jamie Montgomery</a> </p>
+  </section>
+  
+
 </body>
 </html>
+</head>
